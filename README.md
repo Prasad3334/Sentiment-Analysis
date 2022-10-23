@@ -1,4 +1,4 @@
-# Sentiment-Analysis
+# Twitter Sentiment-Analysis on Vaccination
 
 
 Table of Contents:
@@ -30,45 +30,12 @@ This dataset contain total 16 Features:
 * Favorites : How many people gave the like to comment
 * Is_Retweet : User comment was retweeted or not
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Target Variable :
+* Text : The target Variable. it will be Positive and Negative and Neutral 
 
 # Result
-
-Random Forest Classifier: Accuracy = 0.85 and ROC = 0.82
-
-Logistic Regression: Accuracy = 0.84 and ROC = 0.
+* Logistic Regression: Accuracy = 0.84
+* Decision Tree Classifier: Accuracy = 0.90
+* Random Forest Classifier: Accuracy = 0.85
+* Support Vector Machine: Accuracy = 0.87
+* Naive Bayes Classifier: Accuracy= 0.77
